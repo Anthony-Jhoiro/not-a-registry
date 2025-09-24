@@ -100,7 +100,7 @@
       "title": "McButton",
       "description": "A button component using Mozaic React design system.",
       "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json"
+        "https://not-a-registry.vercel.app/r/theme.json"
       ],
       "files": [
         {
