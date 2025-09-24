@@ -41,6 +41,7 @@ import { table } from "@/app/demo/[name]/ui/table";
 import { tabs } from "@/app/demo/[name]/ui/tabs";
 import { toggleGroup } from "@/app/demo/[name]/ui/toggle-group";
 import { tooltip } from "@/app/demo/[name]/ui/tooltip";
+import { mcbutton } from "@/app/demo/[name]/ui/mcbutton";
 
 interface Demo {
   name: string; // this must match the `registry.json` name
@@ -91,4 +92,5 @@ export const demos: { [name: string]: Demo } = {
   tabs,
   "toggle-group": toggleGroup,
   tooltip,
+    mcbutton
 };

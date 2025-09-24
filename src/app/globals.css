@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@import '@mozaic-ds/react/lib/index.css';
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
